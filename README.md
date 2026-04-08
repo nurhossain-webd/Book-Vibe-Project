@@ -1,12 +1,31 @@
-# React + Vite
+# 📚 Book Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Book Vibe is a React-based web application built to provide a smooth and structured user experience. The project uses routing and Context API to manage shared data efficiently and reduce prop drilling across components.
 
-Currently, two official plugins are available:
+## Live Link
+https://book-vibe-by-nur.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- React Router
+- Context API
+- JavaScript
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Main Features
+- Page-based navigation using React Router
+- Shared state management using Context API
+- Cleaner component structure by reducing prop drilling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Dependencies
+- react
+- react-router-dom
+- tailwindcss
+
+## How to Run Locally
+```bash
+git clone YOUR_REPOSITORY_LINK
+cd YOUR_PROJECT_FOLDER
+npm install
+npm run dev
